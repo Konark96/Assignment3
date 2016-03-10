@@ -1,4 +1,4 @@
-package Cisc181.Practice3;
+package tests;
 
 import static org.junit.Assert.*;
 
@@ -8,15 +8,14 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import Cisc181.Exceptions.InsufficientFundsException;
+import exceptions.InsufficientFundsException;
+import base.Account;
 
 /**
  * @author Konark
  *
  */
 public class AccountTest {
-	private static final String CLASS_TO_LOAD = "main.java.Utils";
-
 	Account a;
 	Account b;
 
